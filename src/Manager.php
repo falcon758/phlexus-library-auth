@@ -50,12 +50,12 @@ class Manager extends Injectable implements EventsAwareInterface
     /**
      * @var string|null
      */
-    private $sessionAuthKey = null;
+    private ?string $sessionAuthKey = null;
 
     /**
      * @var string|null
      */
-    private $loginRedirect = null;
+    private ?string $loginRedirect = null;
 
     /**
      * Manager constructor.

@@ -58,7 +58,7 @@ class ModelAdapter extends AbstractAdapter implements AdapterInterface
     /**
      * @var ResultInterface|null
      */
-    protected $user;
+    protected ?ResultInterface $user;
 
     /**
      * Model constructor.
